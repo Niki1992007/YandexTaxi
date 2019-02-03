@@ -1,0 +1,58 @@
+/* Minion Pro Regilar */
+@font-face {
+  font-family: 'Minion Pro';
+  src: url("../fonts/MinionProRegular/Minion Pro.eot"); /* IE9*/
+  src: url("../fonts/MinionProRegular/Minion Pro.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/MinionProRegular/Minion Pro.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/MinionProRegular/Minion Pro.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/MinionProRegular/Minion Pro.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/MinionProRegular/Minion Pro.svg#Minion Pro") format("svg"); /* iOS 4.1- */
+}
+/* Open Sans Semibold Regular*/
+@font-face {
+  font-style: normal;
+  font-size:16px;
+  font-family: 'Open Sans Semibold';
+  src: url("../fonts/OpenSansSemibold/Open Sans Semibold.eot"); /* IE9*/
+  src: url("../fonts/OpenSansSemibold/Open Sans Semibold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/OpenSansSemibold/Open Sans Semibold.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/OpenSansSemibold/Open Sans Semibold.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/OpenSansSemibold/Open Sans Semibold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/OpenSansSemibold/Open Sans Semibold.svg#Open Sans Semibold") format("svg"); /* iOS 4.1- */
+}
+/* Open Sans Bold*/
+@font-face {
+  font-style: normal;
+  font-size:16px;
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/OpenSansOther/Bold/Open Sans Bold.eot"); /* IE9*/
+  src: url("../fonts/OpenSansOther/Bold/Open Sans Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/OpenSansOther/Bold/Open Sans Bold.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/OpenSansOther/Bold/Open Sans Bold.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/OpenSansOther/Bold/Open Sans Bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/OpenSansOther/Bold/Open Sans Bold.svg#Open Sans Bold") format("svg"); /* iOS 4.1- */
+}
+/* Open Sans Regular */
+@font-face {
+  font-style: normal;
+  font-size:16px;
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSansOther/Regular/Open Sans.eot"); /* IE9*/
+  src: url("../fonts/OpenSansOther/Regular/Open Sans.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/OpenSansOther/Regular/Open Sans.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/OpenSansOther/Regular/Open Sans.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/OpenSansOther/Regular/Open Sans.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/OpenSansOther/Regular/Open Sans.svg#Open Sans") format("svg"); /* iOS 4.1- */
+}
+/* Fontawesome for icon Viber */
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FontAwesome/fa-brands-400.eot");
+  src: url("../fonts/FontAwesome/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/FontAwesome/fa-brands-400.woff2") format("woff2"),
+  url("../fonts/FontAwesome/fa-brands-400.woff") format("woff"),
+  url("../fonts/FontAwesome/fa-brands-400.ttf") format("truetype"),
+  url("../fonts/FontAwesome/fa-brands-400.svg#fontawesome") format("svg");
+}

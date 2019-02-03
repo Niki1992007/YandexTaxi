@@ -1,0 +1,7 @@
+package-lock.json
+node_modules/*
+prod/*
+resources/*
+develop/css/libs.css
+develop/css/styles.css
+develop/libs-min/*
