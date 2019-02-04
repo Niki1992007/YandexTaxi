@@ -15,11 +15,21 @@ $varSizeFour: 15px
 $varSizeFive: 18px
 $varSizeSix: 26px
 $varSizeSeven: 42px
+$varSizeEight: 40px
 
 *
 	-webkit-font-smoothing: antialiased
 	-webkit-text-stroke-width: 0.2px
 	-moz-osx-font-smoothing: grayscale
+	font-size: 16px
+	a:hover
+		text-decoration: none
+	img
+	width: 100%
+	height: auto
+
+html
+	background-color: $varColorTwo
 
 .fa-viber:before
 	content: "\f409"
@@ -29,8 +39,129 @@ $varSizeSeven: 42px
 	font-variant: normal
 	text-rendering: auto
 	line-height: 1
-	font-family: 'Font Awesome 5 Brands';
+	font-family: 'Font Awesome 5 Brands'
 .fontMinionProRegular
 	font-family: "Minion Pro" !important
 	font-size: 18px
 	font-style: normal
+
+.header
+	font-family: 'Open Sans Semibold'
+	& .container > .row
+		padding-top: 31px
+		padding-bottom: 32px
+	a
+		color: $varColorOne
+		line-height: 26px
+	.header__logo
+		a
+			padding-right: 7px
+			padding-left: 11px
+			&:hover
+				opacity: 0.4
+			&:first-child
+				border-right: 1px solid $varColorThree
+	.header__menu
+		a
+			font-size: $varSizeThree
+			&:hover
+				color: $varColorFive
+	.header__numbers
+		a
+			font-size: $varSizeFour
+			padding-right: 0px
+			padding-left: 0px
+			border-bottom: 1px dashed $varColorSeven
+			&:hover
+				color: $varColorFive
+				border-bottom: 1px dashed $varColorFive
+		span
+			font-size: $varSizeOne
+	.header__numbers-viber
+		a
+			font-size: $varSizeFour
+			background-color: 
+			border-radius: 15px
+			width: 170px
+			padding: 8px 11px
+			background-color: $varColorEight
+			color: $varColorTwo
+			&:hover
+				background-color: $varColorFive
+				color: $varColorOne
+			i
+				width: 10%
+
+.connection-for-yt
+	background-color: $varColorFour
+	.connection-for-yt__row
+		padding-top: 23px
+		padding-bottom: 33px
+	.connection-for-yt__row > div
+			padding-right: 28px
+			img
+				padding-top: 4em
+	.connection-for-yt__block-form
+		padding-top: 30px
+		padding-bottom: 25px
+		.connection-for-yt_zag
+			color: $varColorOne
+			font-family: 'Open Sans Semibold'
+			line-height: 42px
+			margin-bottom: 17px
+		span
+			color: $varColorFive
+			font-size: $varSizeEight
+		p
+			font-family: 'Open Sans'
+			font-size: $varSizeFive
+			line-height: 26px
+			color: $varColorOne
+			margin-bottom: 27px
+		.form-group
+			margin-bottom: 10px
+		.connection-for-yt_radio-rows
+			margin-top: 6px
+			margin-bottom: 11px
+			label
+				font-size: $varSizeThree
+				color: $varColorOne
+				line-height: 26px
+				font-family: 'Open Sans'
+		.connection-for-yt_checkbox
+			margin-bottom: 24px
+			& input
+				width: 10%
+			& label
+				color: $varColorOne
+				line-height: 26px
+				font-family: 'Open Sans'
+				font-size: $varSizeTwo
+				margin-bottom: 0px
+				width: 90%
+	button
+		line-height: 26px
+		font-size: $varSizeFour
+		color: $varColorOne
+		font-family: 'Open Sans Semibold'
+		border-radius: 23px
+		display: inline
+		background-color: $varColorFive
+		&:hover
+			background-color: transparent
+			border: 3px solid $varColorOne
+
+
+.footer
+	background-color: $varColorOne
+	.container > .row
+		padding-top: 16px
+		padding-bottom: 17px
+	a
+		color: $varColorTwo
+	.header__logo a:first-child
+		border-right: 1px solid $varColorTwo
+	.header__numbers a
+		border-bottom: 1px dashed $varColorTwo
+	.header__numbers span
+		color: $varColorTwo
