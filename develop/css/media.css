@@ -3,10 +3,27 @@
 
 }
 @media (min-width: 1440px) and (max-width: 1920px) {
-	
+	.call-to-work .call-to-work_layers h4 {
+		font-size: 20px;
+		line-height: 15px;
+		margin-bottom: 16px;
+	}
+	.call-to-work .call-to-work_layers .call-to-work__checkbox {
+		margin-bottom: 19px;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1440px) {
-
+	.call-to-work .call-to-work_layers h4 {
+		font-size: 22px;
+		line-height: 29px;
+		margin-bottom: 16px;
+	}
+	.call-to-work .call-to-work_layers .call-to-work__checkbox {
+		margin-bottom: 19px;
+	}
+	.call-to-work_layers form {
+		width: 95%;
+	}
 }
 @media (max-width: 1199px) {
 	.header__numbers-viber{
@@ -39,6 +56,37 @@
 	}
 	.conditions__row ul li:last-child {
 		font-size: 12px;
+	}
+	.call-to-work .call-to-work_layers {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.call-to-work .call-to-work_layers .call-to-work__layers_left {
+		padding-left: 0px;
+	}
+	.call-to-work .call-to-work_layers .call-to-work__layers_right {
+		padding-right: 0px;
+	}
+	.call-to-work .call-to-work_layers h4 {
+		font-size: 20px;
+		line-height: 22px;
+		margin-bottom: 16px;
+	}
+	.call-to-work .call-to-work_layers p {
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 16px;
+	}
+	.call-to-work .call-to-work_layers .call-to-work__checkbox {
+		margin-bottom: 19px;
+	}
+	.call-to-work_layers form {
+		width: 100%;
+	}
+	.call-to-work .call-to-work_layers .call-to-work__checkbox label {
+		font-size: 11px;
 	}
 }
 @media (max-width: 991px) {
