@@ -88,6 +88,9 @@
 	.call-to-work .call-to-work_layers .call-to-work__checkbox label {
 		font-size: 11px;
 	}
+	.why-we__content p {
+		width: 100%;
+	}
 }
 @media (max-width: 991px) {
 	.header__numbers-viber, .header__numbers{
@@ -148,6 +151,19 @@
 		font-size: 16px;
 		line-height: 20px;
 	}
+	.why-we__content {
+		padding-top: 40px;
+		padding-bottom: 50px;
+	}
+	.why-we__content h4 {
+		margin-bottom: 40px;
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.why-we__content p {
+		font-size: 16px;
+		line-height: 16px;
+	}
 }
 @media (max-width: 768px) {
 	.header .container > .row {
@@ -196,6 +212,20 @@
 		font-size: 13px;
 		line-height: 17px;
 	}
+	.why-we__content h4 {
+		margin-bottom: 35px;
+		font-size: 22px;
+		line-height: 20px;
+	}
+	.why-we__content img {
+		margin-bottom: 15px;
+	}
+	.why-we__content p {
+		font-size: 11px;
+		padding-bottom: 8px;
+		margin: auto;
+		width: 80%;
+	}
 }
 @media (max-width: 575px) {
 	.header .header__menu a {
@@ -225,6 +255,23 @@
 	}
 	.call-to-work .call-to-work_layers .call-to-work__checkbox label {
 		font-size: 9px;
+	}
+	.why-we__content {
+		padding-bottom: 30px;
+	}
+	.why-we__content h4 {
+		font-size: 25px;
+		line-height: 32px;
+	}
+	.why-we__content img {
+		width: 24%;
+	}
+	.why-we__content p {
+		padding-bottom: 26px;
+		font-size: 16px;
+		margin: auto;
+		line-height: 20px;
+		width: 70%;
 	}
 }
 @media (max-width: 425px) {
@@ -295,6 +342,19 @@
 		text-align: center;
 		line-height: 18px;
 	}
+	.why-we__content {
+		padding-bottom: 14px;
+		padding-top: 30px;
+	}
+	.why-we__content h4 {
+		font-size: 21px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.why-we__content p {
+		font-size: 14px;
+		width: 80%;
+	}
 }
 @media (max-width: 375px) {
 	.header .header__menu a {
@@ -328,6 +388,21 @@
 	.conditions__row h4 {
 		font-size: 14px;
 		line-height: 18px;
+	}
+	.why-we__content {
+		padding-bottom: 8px;
+		padding-top: 26px;
+	}
+	.why-we__content h4 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 17px;
+	}
+	.why-we__content p {
+		font-size: 12px;
+		padding-bottom: 18px;
+		line-height: 17px;
+		width: 73%;
 	}
 }
 /* ----------------------------------------------------- */

@@ -1,3 +1,5 @@
+
+/*Объявление переменных - цвета START*/
 $varColorOne: #000000
 $varColorTwo: #ffffff
 $varColorThree: #1f191a
@@ -7,7 +9,9 @@ $varColorSix: #a5a5a5
 $varColorSeven: #000001
 $varColorEight: #16b712
 $varColorNine: #a1c2e5
+/*Объявление переменных - цвета END*/
 
+/*Объявление переменных - размер текста START*/
 $varSizeOne: 10px
 $varSizeTwo: 12px
 $varSizeThree: 14px
@@ -16,7 +20,9 @@ $varSizeFive: 18px
 $varSizeSix: 26px
 $varSizeSeven: 42px
 $varSizeEight: 40px
+/*Объявление переменных - размер текста END*/
 
+/*Общие стили и кастомный сброс START*/
 *
 	-webkit-font-smoothing: antialiased
 	-webkit-text-stroke-width: 0.2px
@@ -32,7 +38,9 @@ $varSizeEight: 40px
 
 html
 	background-color: $varColorTwo
+/*Общие стили и кастомный сброс END*/
 
+/*Чуть чуть Fontawesome START*/
 .fa-viber:before
 	content: "\f409"
 .fab
@@ -46,7 +54,9 @@ html
 	font-family: "Minion Pro" !important
 	font-size: 18px
 	font-style: normal
+/*Чуть чуть Fontawesome END*/
 
+/*HEADER START*/
 .header
 	font-family: 'Open Sans Semibold'
 	& .container > .row
@@ -93,7 +103,9 @@ html
 				color: $varColorOne
 			i
 				width: 10%
+/*HEADER END*/
 
+/*Секция "подключиться к Яндекс Такси" START*/
 .connection-for-yt
 	background-color: $varColorFour
 	.connection-for-yt__row
@@ -152,7 +164,9 @@ html
 		&:hover
 			background-color: transparent
 			border: 3px solid $varColorOne
+/*Секция "подключиться к Яндекс Такси" END*/
 
+/*Секция "условия" START*/
 .conditions__row
 	padding-top: 62px
 	padding-bottom: 72px
@@ -185,7 +199,9 @@ html
 		color: $varColorOne
 		font-size: $varSizeThree
 		width: 77%
+/*Секция "условия" END*/
 
+/*Секция "призыв к работе" START*/
 .call-to-work
 	background-color: $varColorFive
 	.call-to-work_layers
@@ -230,7 +246,9 @@ html
 			&:hover
 				background-color: $varColorOne
 				color: $varColorFive
+/*Секция "условия" END*/
 
+/*Секция "почему мы" START*/
 .why-we__content
 	padding-top: 68px
 	padding-bottom: 89px
@@ -252,10 +270,10 @@ html
 		line-height: 26px
 		color: $varColorThree
 		font-size: $varSizeFive
+/*Секция "условия" END*/
 
 
-
-
+/*FOOTER START*/
 .footer
 	background-color: $varColorOne
 	.container > .row
@@ -269,3 +287,4 @@ html
 		border-bottom: 1px dashed $varColorTwo
 	.header__numbers span
 		color: $varColorTwo
+/*FOOTER END*/
