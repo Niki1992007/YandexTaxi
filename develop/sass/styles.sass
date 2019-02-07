@@ -43,17 +43,24 @@ html
 /*Чуть чуть Fontawesome START*/
 .fa-viber:before
 	content: "\f409"
-.fab
+.fab, .fal
 	display: inline-block
 	font-style: normal
 	font-variant: normal
 	text-rendering: auto
 	line-height: 1
-	font-family: 'Font Awesome 5 Brands'
+.fab
+	font-family: 'Font Awesome 5 Pro'
+.fal
+
 .fontMinionProRegular
 	font-family: "Minion Pro" !important
 	font-size: 18px
 	font-style: normal
+
+.fa-angle-double-right:before
+	content: "\f101"
+	color: $varColorTwo
 /*Чуть чуть Fontawesome END*/
 
 /*HEADER START*/
@@ -92,7 +99,6 @@ html
 	.header__numbers-viber
 		a
 			font-size: $varSizeFour
-			background-color: 
 			border-radius: 15px
 			width: 170px
 			padding: 8px 11px
@@ -142,7 +148,7 @@ html
 				color: $varColorOne
 				line-height: 26px
 				font-family: 'Open Sans'
-		.connection-for-yt_checkbox
+		.connection-for-yt__checkbox
 			margin-bottom: 24px
 			& input
 				width: 10%
@@ -272,6 +278,134 @@ html
 		font-size: $varSizeFive
 /*Секция "условия" END*/
 
+/*Секция с табами START*/
+.tabs-block
+	background-color: $varColorFour
+	.tabs-block__row
+		padding-top: 44px
+		padding-bottom: 50px
+		.tabs-block__numbers
+			a
+				font-size: $varSizeFour
+				padding-right: 0px
+				padding-left: 0px
+				border-bottom: 1px dashed $varColorSeven
+				color: $varColorOne
+				font-family: 'Open Sans Semibold'
+				line-height: 26px
+				&:hover
+					color: $varColorFive
+					border-bottom: 1px dashed $varColorFive
+			span
+				font-size: $varSizeOne
+		.tabs-block__numbers-viber
+			a
+				font-size: $varSizeFour
+				border-radius: 15px
+				width: 170px
+				padding: 8px 11px
+				background-color: $varColorEight
+				color: $varColorTwo
+				font-family: 'Open Sans Semibold'
+				line-height: 26px
+				&:hover
+					background-color: $varColorFive
+					color: $varColorOne
+				i
+					width: 10%
+	.tabs-block__checkbox
+		margin-bottom: 38px
+		& input
+			width: 10%
+		& label
+			color: $varColorOne
+			line-height: 26px
+			font-family: 'Open Sans'
+			font-size: $varSizeTwo
+			margin-bottom: 0px
+			width: 90%
+	button
+		border-radius: 23px
+		border: 3px solid $varColorOne
+		color: $varColorOne
+		font-family: 'Open Sans Semibold'
+		font-size: $varSizeFour
+		line-height: 26px
+		background-color: $varColorFour
+		&:hover
+			background-color: $varColorOne
+			color: $varColorFive
+
+.tabs-block
+	h4
+		font-family: 'Open Sans Semibold'
+		color: $varColorOne
+		font-size: 23px
+		line-height: 42px
+		font-weight: 400
+		margin-bottom: 22px
+	& p
+		font-family: 'Open Sans'
+		line-height: 26px
+		font-size: $varSizeFive
+		color: $varColorOne
+		margin-bottom: 70px
+	.tabs-block__form-number
+		margin-bottom: 60px
+	.tabs-block__form
+		p
+			margin-bottom: 27px
+		.form-group
+			margin-bottom: 10px
+	.tabs-block__row > div
+		border-right: 1px solid $varColorTwo
+	.tabs-block__tabs
+		.nav.nav-tabs
+			height: 100%
+			border-bottom: none
+		.nav-item
+			width: 97.04%
+			margin-bottom: 10px
+			background-color: $varColorTwo
+			border-radius: 23px
+			.nav-link
+				color: $varColorOne
+				line-height: 26px
+				font-size: 15px
+				border: none
+				padding: 10.01px 16px
+				font-weight: 400
+				&:hover
+					background-color: $varColorFive
+					color: $varColorTwo
+					border-radius: 23px
+					display: inline-flex
+					flex-direction: row-reverse
+					justify-content: space-between
+					line-height: 26px
+					font-size: 15px
+					font-weight: 400
+		.nav-link.active
+			background-color: $varColorFive
+			color: $varColorTwo
+			border-radius: 23px
+			display: inline-flex
+			flex-direction: row-reverse
+			justify-content: space-between
+			line-height: 26px
+			font-size: 15px
+			font-weight: 400
+
+
+
+
+
+
+
+
+
+
+/*Секция с табами END*/
 
 /*FOOTER START*/
 .footer

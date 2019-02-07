@@ -38,7 +38,7 @@
 	.connection-for-yt .connection-for-yt__row > div img {
 		padding-top: 8em;
 	}
-	.connection-for-yt .connection-for-yt__block-form .connection-for-yt_checkbox label {
+	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox label {
 		font-size: 10px;
 	}
 	.footer .header__numbers-viber {
@@ -92,7 +92,7 @@
 		width: 100%;
 	}
 }
-@media (max-width: 991px) {
+@media (max-width: 9_91px) {
 	.header__numbers-viber, .header__numbers{
 		display: none;
 	}
@@ -175,7 +175,7 @@
 	.connection-for-yt .connection-for-yt__row > div img {
 		padding-top: 1em;
 	}
-	.connection-for-yt .connection-for-yt__block-form .connection-for-yt_checkbox label {
+	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox label {
 		font-size: 11px;
 	}
 	.footer .container > .row {
@@ -235,7 +235,7 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-	.connection-for-yt .connection-for-yt__block-form .connection-for-yt_checkbox label {
+	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox label {
 		font-size: 7px;
 	}
 	.footer .header__numbers-viber {
@@ -309,11 +309,11 @@
 		font-size: 10px;
 		line-height: 17px;
 	}
-	.connection-for-yt .connection-for-yt__block-form .connection-for-yt_checkbox {
+	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox {
 		margin-bottom: 10px;
 		flex-direction: column;
 	}
-	.connection-for-yt .connection-for-yt__block-form .connection-for-yt_checkbox label {
+	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox label {
 		font-size: 11px;
 		text-align: center;
 		line-height: 15px;

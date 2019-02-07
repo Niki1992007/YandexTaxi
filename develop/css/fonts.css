@@ -44,7 +44,7 @@
   url("../fonts/OpenSansOther/Regular/Open Sans.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
   url("../fonts/OpenSansOther/Regular/Open Sans.svg#Open Sans") format("svg"); /* iOS 4.1- */
 }
-/* Fontawesome for icon Viber */
+/* Fontawesome for icons */
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
@@ -55,4 +55,19 @@
   url("../fonts/FontAwesome/fa-brands-400.woff") format("woff"),
   url("../fonts/FontAwesome/fa-brands-400.ttf") format("truetype"),
   url("../fonts/FontAwesome/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+.fal {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 300; }
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/FontAwesome/fa-regular-400.eot");
+  src: url("../fonts/FontAwesome/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/FontAwesome/fa-regular-400.woff2") format("woff2"),
+  url("../fonts/FontAwesome/fa-regular-400.woff") format("woff"),
+  url("../fonts/FontAwesome/fa-regular-400.ttf") format("truetype"),
+  url("../fonts/FontAwesome/fa-regular-400.svg#fontawesome") format("svg");
 }
