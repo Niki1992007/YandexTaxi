@@ -30,7 +30,8 @@
 		display: none;
 	}
 	.header .container > .row {
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 	}
 	.header .header__numbers a {
 		font-size: 12px;
@@ -128,14 +129,25 @@
 	.connection-cost__tables {
 		margin: auto;
 	}
+	.final-form .call-to-work_layers h4 {
+		font-size: 21px;
+		line-height: 25px;
+		margin-bottom: 10px;
+	}
+	.final-form .call-to-work_layers .call-to-work__checkbox label {
+		font-size: 11px;
+	}
 }
 @media (max-width: 991px) {
 	.header__numbers-viber, .header__numbers{
 		display: none;
 	}
 	.header .container > .row {
-		justify-content: space-around;
-		align-items: center;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 	.connection-for-yt .connection-for-yt__row {
 		padding-top: inherit;
@@ -181,7 +193,10 @@
 		font-size: 12px;
 	}
 	.call-to-work .call-to-work_layers .call-to-work__checkbox { 
-		flex-direction: column;
+		-webkit-box-orient: vertical; 
+		-webkit-box-direction: normal; 
+		    -ms-flex-direction: column; 
+		        flex-direction: column;
 	}
 	.call-to-work .call-to-work_layers .call-to-work__checkbox label {
 		text-align: center;
@@ -256,10 +271,25 @@
 		font-size: 13px;
 		line-height: 22px;
 	}
+	.final-form__for-img {
+		display: none;
+	}
+	.final-form .call-to-work_layers .call-to-work__checkbox label {
+		text-align: center;
+		font-size: inherit;
+		line-height: 17px;
+		margin-top: 7px;
+	}
+	.final-form .call-to-work_layers .call-to-work__checkbox {
+		margin-bottom: 28px;
+	}
 }
 @media (max-width: 768px) {
 	.header .container > .row {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.header .header__menu a {
 		font-size: 17px;
@@ -271,8 +301,12 @@
 		font-size: 11px;
 	}
 	.footer .container > .row {
-		flex-direction: row;
-		justify-content: space-around;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 	}
 	.footer .header__menu a, .footer .header__numbers-viber a  {
 		font-size: 10px;
@@ -355,6 +389,11 @@
 	.connection-cost .connection-cost__container .connection-cost__row-items img {
 		width: 22.67%;
 	}
+	.final-form .call-to-work_layers h4 {
+		font-size: 17px;
+		line-height: 19px;
+		margin-bottom: 6px;
+	}
 }
 @media (max-width: 575px) {
 	.header .header__menu a {
@@ -371,7 +410,10 @@
 		display: none;
 	}
 	.footer .container > .row {
-		flex-direction: column-reverse;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
 	}
 	.call-to-work .call-to-work_layers h4 {
 		font-size: 18px;
@@ -423,7 +465,10 @@
 	} 
 	.tabs-block .tabs-block__checkbox {
 		margin-bottom: 15px;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.tabs-block .tabs-block__checkbox label {
 		font-size: 13px;
@@ -491,7 +536,10 @@
 	}
 	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox {
 		margin-bottom: 10px;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.connection-for-yt .connection-for-yt__block-form .connection-for-yt__checkbox label {
 		font-size: 11px;
@@ -515,7 +563,10 @@
 		font-size: 10px;
 	}
 	.call-to-work .call-to-work_layers .call-to-work__checkbox {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.call-to-work .call-to-work_layers .call-to-work__checkbox label {
 		font-size: 13px;
@@ -606,6 +657,9 @@
 		height: inherit;
 		margin-bottom: 0px;
 	}
+	.final-form {
+		margin-bottom: 18px;
+	}
 }
 @media (max-width: 320px) {
 	.header .header__menu a {
@@ -639,6 +693,17 @@
 	.connection-cost__tables div {
 		padding-right: 0px;
 		padding-left: 0px;
+	}
+	.final-form .call-to-work_layers h4 {
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 3px;
+	}
+	.final-form .call-to-work_layers p {
+		font-size: 13px;
+		line-height: 22px;
+		margin-bottom: 15px;
+
 	}
 }
 /* ----------------------------------------------------- */
