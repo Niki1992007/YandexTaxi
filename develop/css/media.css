@@ -109,6 +109,25 @@
 	.tabs-block .tabs-block__checkbox label {
 		font-size: 11px;
 	}
+	.connection-cost .connection-cost__container a {
+		margin-bottom: 30px;
+	}
+	.connection-cost .connection-cost__container h4 {
+		margin-bottom: 14px
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items img {
+		width: 24.67%;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p {
+		font-size: 15px;
+		margin-bottom: 0px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items {
+		margin-bottom: 50px;
+	}
+	.connection-cost__tables {
+		margin: auto;
+	}
 }
 @media (max-width: 991px) {
 	.header__numbers-viber, .header__numbers{
@@ -182,6 +201,12 @@
 		font-size: 16px;
 		line-height: 16px;
 	}
+	.tabs-block__row {
+		margin: auto;
+	}
+	.tabs-block__numbers-viber {
+		text-align: center;
+	}
 	.tabs-block__row > div {
 		border-right: none;
 	}
@@ -202,6 +227,34 @@
 	}
 	.tabs-block .tabs-block__checkbox {
 		margin-bottom: 23px;
+	}
+	.connection-cost .connection-cost__container {
+		padding-bottom: 44px;
+	}
+	.connection-cost .connection-cost__container a {
+		margin-bottom: 15px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p:last-child, .connection-cost .connection-cost__container .connection-cost__row-items span {
+		display: none;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items {
+		margin-bottom: 30px;
+	}
+	.connection-cost .connection-cost__container h6 {
+		width: 75%;
+		margin-bottom: 33px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__tables .table-bordered th {
+		font-size: 13px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__tables .table-bordered td {
+		padding: 20px;
+		font-size: 13px;
+		line-height: 13px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p {
+		font-size: 13px;
+		line-height: 22px;
 	}
 }
 @media (max-width: 768px) {
@@ -270,6 +323,37 @@
 	}
 	.tabs-block__row {
 		margin: auto;
+	}
+	.connection-cost__container > p, .connection-cost .connection-cost__container h4 {
+		width: 100%;
+	}
+	.connection-cost__container > p {
+		font-size: 17px;
+	}
+	.connection-cost .connection-cost__container a {
+		width: 8%;
+		margin-bottom: 36px;
+	}
+	.connection-cost .connection-cost__container h4 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p {
+		width: 100%;
+		font-size: 13px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p:last-child {
+		width: 80%;
+		font-size: 19px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.connection-cost .connection-cost__container h6 {
+		width: 100%;
+		font-size: 21px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items img {
+		width: 22.67%;
 	}
 }
 @media (max-width: 575px) {
@@ -355,6 +439,19 @@
 	}
 	.tabs-block__row {
 		margin: auto;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p:last-child, .connection-cost .connection-cost__container .connection-cost__row-items span {
+		display: none;
+	}
+	.connection-cost__container > p {
+		font-size: 20px;
+		line-height: 23px;
+	}
+	.connection-cost .connection-cost__container a {
+		width: 12%;
+	}
+	.connection-cost .connection-cost__container {
+		padding-bottom: 30px;
 	}
 }
 @media (max-width: 425px) {
@@ -468,6 +565,18 @@
 	.tabs-block__row {
 		margin: auto;
 	}
+	.connection-cost .connection-cost__container h4 {
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.connection-cost .connection-cost__container .connection-cost__row-items p {
+		width: 100%;
+	}
+	.connection-cost .connection-cost__container h6 {
+		font-size: 17px;
+		line-height: 22px;
+		margin-bottom: 28px;
+	}
 }
 @media (max-width: 375px) {
 	.header .header__menu a {
@@ -492,6 +601,10 @@
 	}
 	.tabs-block__row {
 		margin: auto;
+	}
+	.connection-cost .connection-cost__container .connection-cost__tables .table-bordered {
+		height: inherit;
+		margin-bottom: 0px;
 	}
 }
 @media (max-width: 320px) {
@@ -523,8 +636,9 @@
 	.tabs-block .tabs-block__tabs .nav-link.active, .tabs-block .tabs-block__tabs .nav-item .nav-link, .tabs-block .tabs-block__tabs .nav-item .nav-link:hover {
 		font-size: 11px;
 	}
-	.tabs-block__row {
-		margin: auto;
+	.connection-cost__tables div {
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
 /* ----------------------------------------------------- */
